@@ -1,0 +1,42 @@
+{
+  "name": "jsComplete",
+  "version": "1.0.0",
+  "description": "jsComplete.com",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon --exec babel-node server.js --ignore public/",
+    "webpack": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscomplete/node-react-template.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jscomplete/node-react-template/issues"
+  },
+  "homepage": "https://github.com/jscomplete/node-react-template#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "json-loader": "^0.5.4",
+    "node-sass-middleware": "^0.9.8",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.14.1",
+    "eslint-plugin-react": "^6.9.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^1.14.0"
+  }
+}
